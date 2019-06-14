@@ -25,5 +25,10 @@ Se cargaron los datos inicialmente en el paquete estadístico de Rstudio, con el
 Adicionalmente, se quería mostrar la distribrución espacial de la lluvia, para esto uno de los métodos más usados es la interpolación, este método permite por medio de cálculos estadísticos obtener los datos de precipitación de lugares donde no hay estaciones meteorológicas, calculando una superficie estadística a través de los valores conocidos. Para realizar este proceso se utilizó el software ArcGis, la caja de herramientas Spatial Analyst, la opción Interpolation.
 
 ## Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos.
+
+La visualización de los datos se realizó en puntos por categorías, donde se asigna una rampa de colores, de acuerdo al valor de cada parámetro. 
+Adicionalmente se agregaron gráficos de barras, fórmulas con los valores medios, máximos y mínimos, y la linea de tiempo.
+Se genera un mapa para cada parámetro registrado en las estaciones hidrometeorológicas (Precipitación, Temperatura, Brillo Solar, Humedad y Caudales.
+
 ## Descripción breve de las diferentes herramientas y procedimientos utilizadas para publicar el contenido en la web.
 ## Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
