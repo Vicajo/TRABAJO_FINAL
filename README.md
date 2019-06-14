@@ -13,7 +13,7 @@ Los mapas interactivos brindan una interfaz gráfica para conocer de forma ágil
 Los datos son de tipo punto, con proyección de coordenadas MAGNA-COLOMBIA-BOGOTÁ
 Atributos: Código Estación, Nombre Estación, Coordenada X, Coordenada Y, Año, Mes, Valor de cada parámetro (Precipitación, Temperatura, Brillo Solar, Humedad, Caudales)
 
-Datos de descarga (https://datos.gov.co/browse?q=CAR&sortBy=relevance&utf8=%E2%9C%93&page=2)
+[Descarga de datos utilizados] (https://datos.gov.co/browse?q=CAR&sortBy=relevance&utf8=%E2%9C%93&page=2)
 
 Adicionalmente para generar los mapas producto de análiis espacial, se cargaron en formato shapefile tipo polígono, con proyección de coordenadas MAGNA-COLOMBIA-BOGOTÁ, los datos de las subcuencas del Río Bogotá y las Isoyetas
 
@@ -24,7 +24,7 @@ Los datos se descargaron en formato CSV, pero por problemas en la proyección de
 
 Se cargaron los datos inicialmente en el paquete estadístico de Rstudio, con el fin de organizar los datos, como se indica en el párrafo anterior. Una vez se organizaron los datos estos en un software de SIG se conviritieron en formato shapefile, para subirlos a carto y generar los mapas interactivos respectivos.
 
-Adicionalmente, se quería mostrar la distribrución espacial de la lluvia, para esto uno de los métodos más usados es la interpolación, este método permite por medio de cálculos estadísticos obtener los datos de precipitación de lugares donde no hay estaciones meteorológicas, calculando una superficie estadística a través de los valores conocidos. Para realizar este proceso se utilizó el software ArcGis, la caja de herramientas Spatial Analyst, la opción Interpolation.
+Adicionalmente, se quería mostrar la distribrución espacial de la lluvia, para esto uno de los métodos más usados es la interpolación, este método permite por medio de cálculos estadísticos obtener los datos de precipitación de lugares donde no hay estaciones meteorológicas, calculando una superficie estadística a través de los valores conocidos. Para realizar este proceso se utilizó el software ArcGis, la caja de herramientas Spatial Analyst, la opción Interpolation y se utilizo en metodo de interpolacion IDW.
 
 ## Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos.
 
