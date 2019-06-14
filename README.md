@@ -44,3 +44,9 @@ Se genera un mapa para cada parámetro registrado en las estaciones hidrometeoro
 8. Adicionalmente se generaron dos mapas producto del análisis espacial de los datos. Para el primero se adicionó un análisis en CARTO, el cual consiste en cruzar los polígonos de las subcuencas del Río Bogotá, con los datos de precipitación, para así conocer cuales estaciones se encuentran dentro de la cuenca del río Bogotá y cuál es su valor medio. Para el segundo se siguió el mismo procedimiento indicado en los pasos 1 - 6. Finalmente se publicaron estos mapas con la opción PUBLISH.
 
 ## Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
+
+Es una herramienta que cuenta con un buen nivel de usabilidad, por lo tanto es muy amigable y rápida para la creación del mapa, pero es posible que se quede corta en cuanto a los Widgets pues opciones como filtros para el usuario final no estan disponibles, por otra parte al generar un análisis esto desaparece la capa original y se pierden las configuraciones realizadas sobre este, como también no permite generar esos análisis en capas temporales.
+Otra desventaja es que no permite realizar reproyecciones a diferentes sistemas de coordenadas.
+
+# PRESENTACIÓN 
+
