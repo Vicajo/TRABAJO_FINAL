@@ -29,7 +29,7 @@ Adicionalmente, se quería mostrar la distribrución espacial de la lluvia, para
 ## Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos.
 
 La visualización de los datos se realizó en puntos por categorías, donde se asigna una rampa de colores, de acuerdo al valor de cada parámetro. 
-Adicionalmente se agregaron gráficos de barras, fórmulas con los valores medios, máximos y mínimos, y la linea de tiempo, lo cual permite que por un intervalo de tiempo determinado podamos conocer que estaciones registraron datos y cuales son sus valores representativos
+Adicionalmente se agregaron gráficos de barras, fórmulas con los valores medios, máximos y mínimos, y la linea de tiempo, lo cual permite que por un intervalo de tiempo determinado podamos conocer que estaciones registraron datos y cuales son sus valores representativos.
 Se genera un mapa para cada parámetro registrado en las estaciones hidrometeorológicas (Precipitación, Temperatura, Brillo Solar, Humedad y Caudales.
 
 
