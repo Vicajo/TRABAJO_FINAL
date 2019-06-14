@@ -17,6 +17,9 @@ Datos de descarga (https://datos.gov.co/browse?q=CAR&sortBy=relevance&utf8=%E2%9
 
 
 ## Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
+
+Los datos se descargaron en formato CSV, pero por problemas en la proyección de los datos no fué posible cargarlos directamente en CARTO, adicionalmente se requería un registro para cada lugar en cada momento en el tiempo, debido a que en la tabla original se tenía un registro por lugar con múltiples columnas de las cuales cada una era un momento en el tiempo 
+
 ## Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos.
 ## Descripción breve de las diferentes herramientas y procedimientos utilizadas para publicar el contenido en la web.
 ## Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
