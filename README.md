@@ -1,9 +1,13 @@
-# TRABAJO_FINAL
+# TRABAJO FINAL
+
 ## Cuál es el problema a tratar?
 
-Conocer la disponibilidad de los datos de la red hidrometeorológica para poder realizar análisis espaciales 
+Conocer la disponibilidad de los datos de la red hidrometeorológica para poder realizar análisis espaciales.
 
 ## Por qué una experiencia interactiva ayuda a resolverlo?
+
+Los mapas interactivos brindan una interfaz gráfica para conocer de forma ágil la ubicación de estaciones hidrometeorológicas y poder generar análisis espacio-temporales de las series históricas que registra cada estación. Adicionalmente con esta experiencia interactiva se pueden visualizar datos de forma oportuna, que por sus valores, podrían señalar algún inconveniente con el instrumento que esta tomando las mediciones de cada parámetro.
+
 ## Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc)
 ## Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
 ## Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos.
