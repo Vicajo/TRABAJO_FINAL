@@ -22,7 +22,7 @@ Los datos se descargaron en formato CSV, pero por problemas en la proyección de
 
 Se cargaron los datos inicialmente en el paquete estadístico de Rstudio, con el fin de organizar los datos, como se indica en el párrafo anterior. Una vez se organizaron los datos estos en un software de SIG se conviritieron en formato shapefile, para subirlos a carto y generar los mapas interactivos respectivos.
 
-Adicionalmente, se quería mostrar 
+Adicionalmente, se quería mostrar la distribrución espacial de la lluvia, para esto uno de los métodos más usados es la interpolación, este método permite por medio de cálculos estadísticos obtener los datos de precipitación de lugares donde no hay estaciones meteorológicas, calculando una superficie estadística a través de los valores conocidos. Para realizar este proceso se utilizó el software ArcGis, la caja de herramientas Spatial Analyst, la opción Interpolation.
 
 ## Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos.
 ## Descripción breve de las diferentes herramientas y procedimientos utilizadas para publicar el contenido en la web.
