@@ -41,6 +41,6 @@ Se genera un mapa para cada parámetro registrado en las estaciones hidrometeoro
 5. En el menú generamos una simbología establecieendo una rampa de colores de acuerdo a la clasificación del dato del valor.
 6. Se adicionan los Widgets deseados, en este caso se adicionó el que permite graficar los datos en un diagrama de barras, otro que permite conocer los valores medios, máximos y mínimos que se registran según el extent del mapa y otro para visualizar el tiempo de los datos
 7. Se publicó cada mapa en la opción PUBLISH. 
-8. Adicionalmente se generaron dos mapas producto del análisis espacial de los datos. Para el primero se adicionó un análisis en CARTO
+8. Adicionalmente se generaron dos mapas producto del análisis espacial de los datos. Para el primero se adicionó un análisis en CARTO, el cual consiste en cruzar los polígonos de las subcuencas del Río Bogotá, con los datos de precipitación, para así conocer cuales estaciones se encuentran dentro de la cuenca del río Bogotá y cuál es su valor medio. Para el segundo se siguió el mismo procedimiento indicado en los pasos 1 - 6. Finalmente se publicaron estos mapas con la opción PUBLISH.
 
 ## Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
