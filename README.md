@@ -11,6 +11,7 @@ Los mapas interactivos brindan una interfaz gráfica para conocer de forma ágil
 ## Descripción de los datos (tipos de geometrías, atributos, sistemas de referencia, urls para descarga de la información, etc)
 
 Los datos son de tipo punto, con proyección de coordenadas MAGNA-COLOMBIA-BOGOTÁ
+Atributos: Código Estación, Nombre Estación, Coordenada X, Coordenada Y, Año, Mes, Valor de cada parámetro (Precipitación, Temperatura, Brillo Solar, Humedad, Caudales)
 
 
 ## Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
