@@ -15,6 +15,8 @@ Atributos: Código Estación, Nombre Estación, Coordenada X, Coordenada Y, Año
 
 Datos de descarga (https://datos.gov.co/browse?q=CAR&sortBy=relevance&utf8=%E2%9C%93&page=2)
 
+Adicionalmente para generar los mapas producto de análiis espacial, se cargaron en formato shapefile tipo polígono, con proyección de coordenadas MAGNA-COLOMBIA-BOGOTÁ, los datos de las subcuencas del Río Bogotá y las Isoyetas
+
 
 ## Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
 
@@ -31,4 +33,14 @@ Adicionalmente se agregaron gráficos de barras, fórmulas con los valores medio
 Se genera un mapa para cada parámetro registrado en las estaciones hidrometeorológicas (Precipitación, Temperatura, Brillo Solar, Humedad y Caudales.
 
 ## Descripción breve de las diferentes herramientas y procedimientos utilizadas para publicar el contenido en la web.
+
+1. Se ingresa a la página web: carto.com
+2. Se inicia sesión con la cuenta previamente creada
+3. Se ingresa a Create dataset, new dataset, arrastra el shapefile de cada parámetro.
+4. posteriormente click en la pestaña Map para visualizar nuestra capa en el mapa, y establecemos el BaseMap deseado. 
+5. En el menú generamos una simbología establecieendo una rampa de colores de acuerdo a la clasificación del dato del valor.
+6. Se adicionan los Widgets deseados, en este caso se adicionó el que permite graficar los datos en un diagrama de barras, otro que permite conocer los valores medios, máximos y mínimos que se registran según el extent del mapa y otro para visualizar el tiempo de los datos
+7. Se publicó cada mapa en la opción PUBLISH. 
+8. Adicionalmente se generaron dos mapas producto del análisis espacial de los datos. Para el primero se adicionó un análisis en CARTO
+
 ## Ventajas / desventajas / dificultades de la publicación de mapas utilizando herramientas en la nube respecto al software desktop.
