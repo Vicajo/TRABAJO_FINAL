@@ -18,7 +18,11 @@ Datos de descarga (https://datos.gov.co/browse?q=CAR&sortBy=relevance&utf8=%E2%9
 
 ## Descripción del procesamiento realizado a los datos (ejm: transformaciones, filtros, geoprocesamiento, etc)
 
-Los datos se descargaron en formato CSV, pero por problemas en la proyección de los datos no fué posible cargarlos directamente en CARTO, adicionalmente se requería un registro para cada lugar en cada momento en el tiempo, debido a que en la tabla original se tenía un registro por lugar con múltiples columnas de las cuales cada una era un momento en el tiempo 
+Los datos se descargaron en formato CSV, pero por problemas en la proyección de los datos no fué posible cargarlos directamente en CARTO, adicionalmente se requería un registro para cada lugar en cada momento en el tiempo, debido a que en la tabla original se tenía un registro por lugar con múltiples columnas de las cuales cada una era un momento en el tiempo.
+
+Se cargaron los datos inicialmente en el paquete estadístico de Rstudio, con el fin de organizar los datos, como se indica en el párrafo anterior. Una vez se organizaron los datos estos en un software de SIG se conviritieron en formato shapefile, para subirlos a carto y generar los mapas interactivos respectivos.
+
+Adicionalmente, se quería mostrar 
 
 ## Descripción de las diferentes técnicas y métodos utilizados para la visualización de datos.
 ## Descripción breve de las diferentes herramientas y procedimientos utilizadas para publicar el contenido en la web.
